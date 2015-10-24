@@ -8,12 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		2B974AC01BCC9B4800E8FAF5 /* Easing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B974ABF1BCC9B4800E8FAF5 /* Easing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B974ACD1BCDED3B00E8FAF5 /* BackEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974ACC1BCDED3B00E8FAF5 /* BackEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974ACF1BCDEDA200E8FAF5 /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974ACE1BCDEDA200E8FAF5 /* EasingFunction.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AD11BD0A83F00E8FAF5 /* BackEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AD01BD0A83F00E8FAF5 /* BackEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AD31BD0AA5F00E8FAF5 /* BackEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AD21BD0AA5F00E8FAF5 /* BackEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AD61BD0AAD600E8FAF5 /* BounceEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AD51BD0AAD600E8FAF5 /* BounceEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AD81BD0ACBF00E8FAF5 /* BounceEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AD71BD0ACBF00E8FAF5 /* BounceEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974ADA1BD12A2500E8FAF5 /* BounceEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AD91BD12A2500E8FAF5 /* BounceEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AE51BD12D9300E8FAF5 /* CircEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AE41BD12D9300E8FAF5 /* CircEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AE71BD12F5200E8FAF5 /* CircEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AE61BD12F5200E8FAF5 /* CircEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AE91BD14EB200E8FAF5 /* CircEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AE81BD14EB200E8FAF5 /* CircEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AEB1BD1548A00E8FAF5 /* CubicEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AEA1BD1548A00E8FAF5 /* CubicEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AED1BD1556A00E8FAF5 /* CubicEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AEC1BD1556A00E8FAF5 /* CubicEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AEF1BD1560900E8FAF5 /* CubicEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AEE1BD1560900E8FAF5 /* CubicEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AF11BD1595A00E8FAF5 /* ElasticEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AF01BD1595A00E8FAF5 /* ElasticEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2B974AF31BD283DC00E8FAF5 /* ElasticEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B974AF21BD283DC00E8FAF5 /* ElasticEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBDC1BDB294000198EFA /* ExpoEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBDB1BDB294000198EFA /* ExpoEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBDE1BDB29FD00198EFA /* ExpoEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBDD1BDB29FD00198EFA /* ExpoEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBE01BDB2AC300198EFA /* ExpoEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBDF1BDB2AC300198EFA /* ExpoEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBE21BDB2BE900198EFA /* Linear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE11BDB2BE900198EFA /* Linear.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBE41BDB2DD500198EFA /* QuadEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE31BDB2DD500198EFA /* QuadEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBE61BDB2E1E00198EFA /* QuadEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE51BDB2E1E00198EFA /* QuadEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBE81BDB2EC200198EFA /* QuadEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE71BDB2EC200198EFA /* QuadEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBEA1BDB3B7900198EFA /* QuintEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBEC1BDB3B8200198EFA /* QuintEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBEE1BDB3C3B00198EFA /* QuintEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBF01BDB3CD500198EFA /* SineEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBEF1BDB3CD500198EFA /* SineEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBF21BDB3D5800198EFA /* SineEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBF41BDB3E0700198EFA /* SineEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BFB025D1BD85D8E00BF191F /* ElasticEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB025C1BD85D8E00BF191F /* ElasticEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B974ABC1BCC9B4800E8FAF5 /* Easing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Easing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B974ABF1BCC9B4800E8FAF5 /* Easing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
 		2B974AC11BCC9B4800E8FAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B974ACC1BCDED3B00E8FAF5 /* BackEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEaseIn.swift; sourceTree = "<group>"; };
+		2B974ACE1BCDEDA200E8FAF5 /* EasingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingFunction.swift; sourceTree = "<group>"; };
+		2B974AD01BD0A83F00E8FAF5 /* BackEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEaseOut.swift; sourceTree = "<group>"; };
+		2B974AD21BD0AA5F00E8FAF5 /* BackEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEaseInOut.swift; sourceTree = "<group>"; };
+		2B974AD51BD0AAD600E8FAF5 /* BounceEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceEaseIn.swift; sourceTree = "<group>"; };
+		2B974AD71BD0ACBF00E8FAF5 /* BounceEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceEaseOut.swift; sourceTree = "<group>"; };
+		2B974AD91BD12A2500E8FAF5 /* BounceEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceEaseInOut.swift; sourceTree = "<group>"; };
+		2B974AE41BD12D9300E8FAF5 /* CircEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircEaseIn.swift; sourceTree = "<group>"; };
+		2B974AE61BD12F5200E8FAF5 /* CircEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircEaseOut.swift; sourceTree = "<group>"; };
+		2B974AE81BD14EB200E8FAF5 /* CircEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircEaseInOut.swift; sourceTree = "<group>"; };
+		2B974AEA1BD1548A00E8FAF5 /* CubicEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicEaseIn.swift; sourceTree = "<group>"; };
+		2B974AEC1BD1556A00E8FAF5 /* CubicEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicEaseOut.swift; sourceTree = "<group>"; };
+		2B974AEE1BD1560900E8FAF5 /* CubicEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubicEaseInOut.swift; sourceTree = "<group>"; };
+		2B974AF01BD1595A00E8FAF5 /* ElasticEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticEaseIn.swift; sourceTree = "<group>"; };
+		2B974AF21BD283DC00E8FAF5 /* ElasticEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticEaseOut.swift; sourceTree = "<group>"; };
+		2BDCEBDB1BDB294000198EFA /* ExpoEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoEaseIn.swift; sourceTree = "<group>"; };
+		2BDCEBDD1BDB29FD00198EFA /* ExpoEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoEaseOut.swift; sourceTree = "<group>"; };
+		2BDCEBDF1BDB2AC300198EFA /* ExpoEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoEaseInOut.swift; sourceTree = "<group>"; };
+		2BDCEBE11BDB2BE900198EFA /* Linear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linear.swift; sourceTree = "<group>"; };
+		2BDCEBE31BDB2DD500198EFA /* QuadEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseIn.swift; sourceTree = "<group>"; };
+		2BDCEBE51BDB2E1E00198EFA /* QuadEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseOut.swift; sourceTree = "<group>"; };
+		2BDCEBE71BDB2EC200198EFA /* QuadEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseInOut.swift; sourceTree = "<group>"; };
+		2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseIn.swift; sourceTree = "<group>"; };
+		2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseOut.swift; sourceTree = "<group>"; };
+		2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseInOut.swift; sourceTree = "<group>"; };
+		2BDCEBEF1BDB3CD500198EFA /* SineEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseIn.swift; sourceTree = "<group>"; };
+		2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseOut.swift; sourceTree = "<group>"; };
+		2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseInOut.swift; sourceTree = "<group>"; };
+		2BFB025C1BD85D8E00BF191F /* ElasticEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticEaseInOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +104,119 @@
 		2B974ABE1BCC9B4800E8FAF5 /* Easing */ = {
 			isa = PBXGroup;
 			children = (
+				2B974ACB1BCDECF100E8FAF5 /* Back */,
+				2B974AD41BD0AAC300E8FAF5 /* Bounce */,
+				2B974ADB1BD12CE700E8FAF5 /* Circ */,
+				2B974ADC1BD12CED00E8FAF5 /* Cubic */,
 				2B974ABF1BCC9B4800E8FAF5 /* Easing.h */,
+				2B974ACE1BCDEDA200E8FAF5 /* EasingFunction.swift */,
+				2B974ADD1BD12CF200E8FAF5 /* Elastic */,
+				2B974ADF1BD12D3400E8FAF5 /* Expo */,
 				2B974AC11BCC9B4800E8FAF5 /* Info.plist */,
+				2B974AE01BD12D3D00E8FAF5 /* Linear */,
+				2B974AE11BD12D4100E8FAF5 /* Quad */,
+				2B974AE21BD12D4800E8FAF5 /* Quint */,
+				2B974AE31BD12D5500E8FAF5 /* Sine */,
 			);
 			path = Easing;
+			sourceTree = "<group>";
+		};
+		2B974ACB1BCDECF100E8FAF5 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				2B974ACC1BCDED3B00E8FAF5 /* BackEaseIn.swift */,
+				2B974AD01BD0A83F00E8FAF5 /* BackEaseOut.swift */,
+				2B974AD21BD0AA5F00E8FAF5 /* BackEaseInOut.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		2B974AD41BD0AAC300E8FAF5 /* Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				2B974AD51BD0AAD600E8FAF5 /* BounceEaseIn.swift */,
+				2B974AD71BD0ACBF00E8FAF5 /* BounceEaseOut.swift */,
+				2B974AD91BD12A2500E8FAF5 /* BounceEaseInOut.swift */,
+			);
+			path = Bounce;
+			sourceTree = "<group>";
+		};
+		2B974ADB1BD12CE700E8FAF5 /* Circ */ = {
+			isa = PBXGroup;
+			children = (
+				2B974AE41BD12D9300E8FAF5 /* CircEaseIn.swift */,
+				2B974AE61BD12F5200E8FAF5 /* CircEaseOut.swift */,
+				2B974AE81BD14EB200E8FAF5 /* CircEaseInOut.swift */,
+			);
+			path = Circ;
+			sourceTree = "<group>";
+		};
+		2B974ADC1BD12CED00E8FAF5 /* Cubic */ = {
+			isa = PBXGroup;
+			children = (
+				2B974AEA1BD1548A00E8FAF5 /* CubicEaseIn.swift */,
+				2B974AEC1BD1556A00E8FAF5 /* CubicEaseOut.swift */,
+				2B974AEE1BD1560900E8FAF5 /* CubicEaseInOut.swift */,
+			);
+			path = Cubic;
+			sourceTree = "<group>";
+		};
+		2B974ADD1BD12CF200E8FAF5 /* Elastic */ = {
+			isa = PBXGroup;
+			children = (
+				2B974AF01BD1595A00E8FAF5 /* ElasticEaseIn.swift */,
+				2B974AF21BD283DC00E8FAF5 /* ElasticEaseOut.swift */,
+				2BFB025C1BD85D8E00BF191F /* ElasticEaseInOut.swift */,
+			);
+			path = Elastic;
+			sourceTree = "<group>";
+		};
+		2B974ADF1BD12D3400E8FAF5 /* Expo */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCEBDB1BDB294000198EFA /* ExpoEaseIn.swift */,
+				2BDCEBDD1BDB29FD00198EFA /* ExpoEaseOut.swift */,
+				2BDCEBDF1BDB2AC300198EFA /* ExpoEaseInOut.swift */,
+			);
+			path = Expo;
+			sourceTree = "<group>";
+		};
+		2B974AE01BD12D3D00E8FAF5 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCEBE11BDB2BE900198EFA /* Linear.swift */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
+		2B974AE11BD12D4100E8FAF5 /* Quad */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCEBE31BDB2DD500198EFA /* QuadEaseIn.swift */,
+				2BDCEBE51BDB2E1E00198EFA /* QuadEaseOut.swift */,
+				2BDCEBE71BDB2EC200198EFA /* QuadEaseInOut.swift */,
+			);
+			path = Quad;
+			sourceTree = "<group>";
+		};
+		2B974AE21BD12D4800E8FAF5 /* Quint */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */,
+				2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */,
+				2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */,
+			);
+			name = Quint;
+			sourceTree = "<group>";
+		};
+		2B974AE31BD12D5500E8FAF5 /* Sine */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCEBEF1BDB3CD500198EFA /* SineEaseIn.swift */,
+				2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */,
+				2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */,
+			);
+			name = Sine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +257,7 @@
 		2B974AB31BCC9B4800E8FAF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = jforce;
 				TargetAttributes = {
@@ -130,6 +298,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B974AF31BD283DC00E8FAF5 /* ElasticEaseOut.swift in Sources */,
+				2B974AE91BD14EB200E8FAF5 /* CircEaseInOut.swift in Sources */,
+				2BDCEBEA1BDB3B7900198EFA /* QuintEaseIn.swift in Sources */,
+				2B974AED1BD1556A00E8FAF5 /* CubicEaseOut.swift in Sources */,
+				2BDCEBEC1BDB3B8200198EFA /* QuintEaseOut.swift in Sources */,
+				2BDCEBE61BDB2E1E00198EFA /* QuadEaseOut.swift in Sources */,
+				2BFB025D1BD85D8E00BF191F /* ElasticEaseInOut.swift in Sources */,
+				2B974AEB1BD1548A00E8FAF5 /* CubicEaseIn.swift in Sources */,
+				2B974AD81BD0ACBF00E8FAF5 /* BounceEaseOut.swift in Sources */,
+				2B974AE51BD12D9300E8FAF5 /* CircEaseIn.swift in Sources */,
+				2BDCEBF01BDB3CD500198EFA /* SineEaseIn.swift in Sources */,
+				2B974AEF1BD1560900E8FAF5 /* CubicEaseInOut.swift in Sources */,
+				2B974AD31BD0AA5F00E8FAF5 /* BackEaseInOut.swift in Sources */,
+				2B974ACD1BCDED3B00E8FAF5 /* BackEaseIn.swift in Sources */,
+				2BDCEBEE1BDB3C3B00198EFA /* QuintEaseInOut.swift in Sources */,
+				2BDCEBE81BDB2EC200198EFA /* QuadEaseInOut.swift in Sources */,
+				2B974AD61BD0AAD600E8FAF5 /* BounceEaseIn.swift in Sources */,
+				2BDCEBF21BDB3D5800198EFA /* SineEaseOut.swift in Sources */,
+				2BDCEBDC1BDB294000198EFA /* ExpoEaseIn.swift in Sources */,
+				2BDCEBE01BDB2AC300198EFA /* ExpoEaseInOut.swift in Sources */,
+				2B974AE71BD12F5200E8FAF5 /* CircEaseOut.swift in Sources */,
+				2BDCEBE21BDB2BE900198EFA /* Linear.swift in Sources */,
+				2B974ACF1BCDEDA200E8FAF5 /* EasingFunction.swift in Sources */,
+				2BDCEBF41BDB3E0700198EFA /* SineEaseInOut.swift in Sources */,
+				2BDCEBDE1BDB29FD00198EFA /* ExpoEaseOut.swift in Sources */,
+				2B974ADA1BD12A2500E8FAF5 /* BounceEaseInOut.swift in Sources */,
+				2BDCEBE41BDB2DD500198EFA /* QuadEaseIn.swift in Sources */,
+				2B974AF11BD1595A00E8FAF5 /* ElasticEaseIn.swift in Sources */,
+				2B974AD11BD0A83F00E8FAF5 /* BackEaseOut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +425,7 @@
 		2B974AC51BCC9B4800E8FAF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -238,12 +436,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = im.jforce.Easing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2B974AC61BCC9B4800E8FAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -276,6 +476,7 @@
 				2B974AC61BCC9B4800E8FAF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
