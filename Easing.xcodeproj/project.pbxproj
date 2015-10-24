@@ -30,12 +30,12 @@
 		2BDCEBE41BDB2DD500198EFA /* QuadEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE31BDB2DD500198EFA /* QuadEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBE61BDB2E1E00198EFA /* QuadEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE51BDB2E1E00198EFA /* QuadEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBE81BDB2EC200198EFA /* QuadEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE71BDB2EC200198EFA /* QuadEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
-		2BDCEBEA1BDB3B7900198EFA /* QuintEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
-		2BDCEBEC1BDB3B8200198EFA /* QuintEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBEE1BDB3C3B00198EFA /* QuintEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBF01BDB3CD500198EFA /* SineEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBEF1BDB3CD500198EFA /* SineEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBF21BDB3D5800198EFA /* SineEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
 		2BDCEBF41BDB3E0700198EFA /* SineEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBF71BDB4BA900198EFA /* QuintEaseIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF51BDB4BA900198EFA /* QuintEaseIn.swift */; settings = {ASSET_TAGS = (); }; };
+		2BDCEBF81BDB4BA900198EFA /* QuintEaseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCEBF61BDB4BA900198EFA /* QuintEaseOut.swift */; settings = {ASSET_TAGS = (); }; };
 		2BFB025D1BD85D8E00BF191F /* ElasticEaseInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB025C1BD85D8E00BF191F /* ElasticEaseInOut.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -65,12 +65,12 @@
 		2BDCEBE31BDB2DD500198EFA /* QuadEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseIn.swift; sourceTree = "<group>"; };
 		2BDCEBE51BDB2E1E00198EFA /* QuadEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseOut.swift; sourceTree = "<group>"; };
 		2BDCEBE71BDB2EC200198EFA /* QuadEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadEaseInOut.swift; sourceTree = "<group>"; };
-		2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseIn.swift; sourceTree = "<group>"; };
-		2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseOut.swift; sourceTree = "<group>"; };
 		2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseInOut.swift; sourceTree = "<group>"; };
 		2BDCEBEF1BDB3CD500198EFA /* SineEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseIn.swift; sourceTree = "<group>"; };
 		2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseOut.swift; sourceTree = "<group>"; };
 		2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SineEaseInOut.swift; sourceTree = "<group>"; };
+		2BDCEBF51BDB4BA900198EFA /* QuintEaseIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseIn.swift; sourceTree = "<group>"; };
+		2BDCEBF61BDB4BA900198EFA /* QuintEaseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintEaseOut.swift; sourceTree = "<group>"; };
 		2BFB025C1BD85D8E00BF191F /* ElasticEaseInOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticEaseInOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,11 +202,11 @@
 		2B974AE21BD12D4800E8FAF5 /* Quint */ = {
 			isa = PBXGroup;
 			children = (
-				2BDCEBE91BDB3B7900198EFA /* QuintEaseIn.swift */,
-				2BDCEBEB1BDB3B8200198EFA /* QuintEaseOut.swift */,
+				2BDCEBF51BDB4BA900198EFA /* QuintEaseIn.swift */,
+				2BDCEBF61BDB4BA900198EFA /* QuintEaseOut.swift */,
 				2BDCEBED1BDB3C3B00198EFA /* QuintEaseInOut.swift */,
 			);
-			name = Quint;
+			path = Quint;
 			sourceTree = "<group>";
 		};
 		2B974AE31BD12D5500E8FAF5 /* Sine */ = {
@@ -216,7 +216,7 @@
 				2BDCEBF11BDB3D5800198EFA /* SineEaseOut.swift */,
 				2BDCEBF31BDB3E0700198EFA /* SineEaseInOut.swift */,
 			);
-			name = Sine;
+			path = Sine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +300,7 @@
 			files = (
 				2B974AF31BD283DC00E8FAF5 /* ElasticEaseOut.swift in Sources */,
 				2B974AE91BD14EB200E8FAF5 /* CircEaseInOut.swift in Sources */,
-				2BDCEBEA1BDB3B7900198EFA /* QuintEaseIn.swift in Sources */,
 				2B974AED1BD1556A00E8FAF5 /* CubicEaseOut.swift in Sources */,
-				2BDCEBEC1BDB3B8200198EFA /* QuintEaseOut.swift in Sources */,
 				2BDCEBE61BDB2E1E00198EFA /* QuadEaseOut.swift in Sources */,
 				2BFB025D1BD85D8E00BF191F /* ElasticEaseInOut.swift in Sources */,
 				2B974AEB1BD1548A00E8FAF5 /* CubicEaseIn.swift in Sources */,
@@ -313,11 +311,13 @@
 				2B974AD31BD0AA5F00E8FAF5 /* BackEaseInOut.swift in Sources */,
 				2B974ACD1BCDED3B00E8FAF5 /* BackEaseIn.swift in Sources */,
 				2BDCEBEE1BDB3C3B00198EFA /* QuintEaseInOut.swift in Sources */,
+				2BDCEBF81BDB4BA900198EFA /* QuintEaseOut.swift in Sources */,
 				2BDCEBE81BDB2EC200198EFA /* QuadEaseInOut.swift in Sources */,
 				2B974AD61BD0AAD600E8FAF5 /* BounceEaseIn.swift in Sources */,
 				2BDCEBF21BDB3D5800198EFA /* SineEaseOut.swift in Sources */,
 				2BDCEBDC1BDB294000198EFA /* ExpoEaseIn.swift in Sources */,
 				2BDCEBE01BDB2AC300198EFA /* ExpoEaseInOut.swift in Sources */,
+				2BDCEBF71BDB4BA900198EFA /* QuintEaseIn.swift in Sources */,
 				2B974AE71BD12F5200E8FAF5 /* CircEaseOut.swift in Sources */,
 				2BDCEBE21BDB2BE900198EFA /* Linear.swift in Sources */,
 				2B974ACF1BCDEDA200E8FAF5 /* EasingFunction.swift in Sources */,

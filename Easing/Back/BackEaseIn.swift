@@ -13,8 +13,8 @@ class BackEaseIn : EasingFunction{
 
     var s: Float = 1.70158;
     
-    convenience init(duration: Float, back: Float){
-        self.init(duration: duration);
+    convenience init(back: Float){
+        self.init();
         self.s = back;
         
     }

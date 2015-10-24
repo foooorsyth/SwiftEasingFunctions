@@ -11,11 +11,8 @@ import Foundation
 //Abstract base class
 class EasingFunction{
     
-    var duration: Float
-    
-    init(var duration: Float){
+    init(){
         
-        self.duration = duration;
     }
 
     func calculate(var t: Float, var b: Float, var c: Float, var d: Float) throws ->Float{
