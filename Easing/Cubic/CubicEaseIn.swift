@@ -8,12 +8,14 @@
 
 import Foundation
 
-class CubicEaseIn : EasingFunction{
+public class CubicEaseIn : EasingFunction{
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
-        return c*Float(t/=d)*t*t + b;
+        t = t / d;
+        
+        return c*t*t*t + b;
         
     }
     

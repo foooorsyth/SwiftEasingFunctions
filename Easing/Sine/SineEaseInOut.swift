@@ -9,10 +9,10 @@
 import Foundation
 
 
-class SineEaseInOut : EasingFunction {
+public class SineEaseInOut : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         return -c/2 * (Float(cos(Float(M_PI)*t/d)) - 1) + b;
         

@@ -8,12 +8,14 @@
 
 import Foundation
 
-class CircEaseIn : EasingFunction{
+public class CircEaseIn : EasingFunction{
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
-        return -c * ((sqrt(1 - Float(t/=d)*t) as Float) - 1) + b;
+        t = t / d;
+        
+        return -c * ((sqrt(1 - t*t) as Float) - 1) + b;
         
     }
     

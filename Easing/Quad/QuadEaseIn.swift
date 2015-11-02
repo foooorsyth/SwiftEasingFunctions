@@ -9,13 +9,15 @@
 import Foundation
 
 
-class QuadEaseIn : EasingFunction {
+public class QuadEaseIn : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
+        t = t / d;
         
-        return c*Float(t/=d)*t + b;
+        return c*t*t + b;
+        
         
     }
     

@@ -8,8 +8,7 @@
 
 import Foundation
 
-class BackEaseInOut : EasingFunction{
-    
+public class BackEaseInOut : EasingFunction{
     
     var s: Float = 1.70158;
     
@@ -19,14 +18,29 @@ class BackEaseInOut : EasingFunction{
         
     }
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
-        if Float(t/=d/2) < 1{
-            return c/2*(t*t*(((Float(s*=(1.525)))+1)*t - s)) + b;
+        let t0 = t / (d / 2);
+        
+        if t0 < 1{
+            
+            let s0 = s * 1.525;
+            
+            
+            return c/2*(t0*t0*((s0+1)*t0 - s0)) + b;
             
         }
         
-        return c/2*((Float(t-=2))*t*(((Float(s*=(1.525)))+1)*t + s) + 2) + b;
+        let t1 = t0 - 2;
+        let s0 = s * 1.525;
+        
+        print("bottom");
+        
+        
+        return c/2*((t1)*t1*((s0+1)*t1 + s0) + 2) + b;
+        
+        
+        
     }
     
 }

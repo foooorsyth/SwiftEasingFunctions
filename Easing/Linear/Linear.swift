@@ -10,10 +10,10 @@ import Foundation
 
 
 
-class Linear : EasingFunction {
+public class Linear : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         return c*t/d + b;
         

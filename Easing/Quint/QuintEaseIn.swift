@@ -8,13 +8,15 @@
 
 import Foundation
 
-class QuintEaseIn : EasingFunction {
+public class QuintEaseIn : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+        
+        t = t / d;
         
         
-        return c*Float(t/=d)*t*t*t*t + b;
+        return c*t*t*t*t*t + b;
         
     }
     

@@ -9,16 +9,20 @@
 import Foundation
 
 
-class CubicEaseInOut : EasingFunction{
+public class CubicEaseInOut : EasingFunction{
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
-        if (Float(t/=d/2) < 1){
+        t = t / (d / 2)
+        
+        if (t < 1){
             return c/2*t*t*t + b;
         }
         
-        return c/2*(Float(t-=2)*t*t + 2) + b;
+        t = t - 2;
+        
+        return c/2*(t*t*t + 2) + b;
         
         
     }

@@ -9,10 +9,10 @@
 import Foundation
 
 
-class ExpoEaseIn : EasingFunction {
+public class ExpoEaseIn : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         return (t==0) ? b : c * Float(pow(2, 10 * (t/d - 1))) + b;
         

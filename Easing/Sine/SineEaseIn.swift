@@ -9,12 +9,12 @@
 import Foundation
 
 
-class SineEaseIn : EasingFunction {
+public class SineEaseIn : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
-        return -c * Float(cos(t/d * (M_PI/2))) + c + b;
+        return -c * Float(cos(t/d * Float(M_PI/2))) + c + b;
         
         
     }

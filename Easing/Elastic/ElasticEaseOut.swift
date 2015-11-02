@@ -10,16 +10,17 @@ import Foundation
 
 
 
-class ElasticEaseOut : EasingFunction {
+public class ElasticEaseOut : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         if (t==0){
             return b;
             
         }
-        if (Float(t/=d)==1){
+        t = t / d;
+        if (t==1){
             return b+c;
         }
         var p = d * 0.3;

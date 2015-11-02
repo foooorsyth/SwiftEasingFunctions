@@ -9,17 +9,21 @@
 import Foundation
 
 
-class QuintEaseInOut : EasingFunction {
+public class QuintEaseInOut : EasingFunction {
     
-    
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         
-        if (Float(t/=d/2) < 1) {
-            return c/2*t*t*t*t*t + b;
+        let t0 = t / (d / 2);
+        
+        if (t0 < 1) {
+            return c/2*t0*t0*t0*t0*t0 + b;
             
         }
-        return c/2*(Float(t-=2)*t*t*t*t + 2) + b;
+        
+        let t1 = t0 - 2;
+        
+        return c/2*(t1*t1*t1*t1*t1 + 2) + b;
         
     }
     

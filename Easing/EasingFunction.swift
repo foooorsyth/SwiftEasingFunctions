@@ -9,19 +9,19 @@
 import Foundation
 
 //Abstract base class
-class EasingFunction{
+public class EasingFunction {
     
-    init(){
+    public init(){
         
     }
 
-    func calculate(var t: Float, var b: Float, var c: Float, var d: Float) throws ->Float{
+    public func calculate(var t: Float, var b: Float, var c: Float, var d: Float) throws ->Float{
         throw AbstractImplementationError.AbstractFunction
     }
 }
 
 
-enum AbstractImplementationError : ErrorType {
+public enum AbstractImplementationError : ErrorType {
     
     case AbstractFunction
     

@@ -8,15 +8,16 @@
 
 import Foundation
 
-class BounceEaseIn : EasingFunction{
+public class BounceEaseIn : EasingFunction{
+    
 
     var bounceEaseOut: BounceEaseOut;
     
-    override init() {
+    override public init() {
         self.bounceEaseOut = BounceEaseOut();
     }
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         return c - bounceEaseOut.calculate(d-t, b: 0, c: c, d: d) + b;
         
     }

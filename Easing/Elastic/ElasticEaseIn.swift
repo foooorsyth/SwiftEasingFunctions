@@ -7,27 +7,29 @@
 //
 
 import Foundation
+import UIKit
 
-
-
-class ElasticEaseIn : EasingFunction {
+public class ElasticEaseIn : EasingFunction {
     
-    
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         
         if (t==0){
             return b;
             
         }
-        if (Float(t/=d)==1){
+        
+        t = t / d;
+        if (t==1){
             return b+c;
             
         }
         let p = d * 0.3;
         let a = c;
         let s = p / 4;
-        return -(a*(pow(2,10*Float(t-=1)) as Float) * (sin((t*d-s)*Float(2*CGFloat(M_PI))/p )) as Float) + b;
+        let t0 = t - 1;
+        
+        return -(a*(pow(2,10*t0)) * (sin((t0*d-s)*Float(2*CGFloat(M_PI))/p ))) + b;
         
     }
     

@@ -9,10 +9,12 @@
 import Foundation
 
 
-class ExpoEaseInOut : EasingFunction {
+public class ExpoEaseInOut : EasingFunction {
     
     
-    override func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
+    //TODO: 
+    
+    override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
         
         if (t==0){
             return b;
