@@ -34,9 +34,6 @@ public class BackEaseInOut : EasingFunction{
         let t1 = t0 - 2;
         let s0 = s * 1.525;
         
-        print("bottom");
-        
-        
         return c/2*((t1)*t1*((s0+1)*t1 + s0) + 2) + b;
         
         
