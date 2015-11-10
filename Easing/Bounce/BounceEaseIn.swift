@@ -15,6 +15,7 @@ public class BounceEaseIn : EasingFunction{
     
     override public init() {
         self.bounceEaseOut = BounceEaseOut();
+        super.init();
     }
     
     override public func calculate(var t: Float, var b: Float, var c: Float, var d: Float)->Float{
