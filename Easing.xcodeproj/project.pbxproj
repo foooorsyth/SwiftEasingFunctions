@@ -432,6 +432,7 @@
 				DYLIB_INSTALL_NAME_BASE = "";
 				INFOPLIST_FILE = Easing/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = mh_object;
@@ -454,6 +455,7 @@
 				DYLIB_INSTALL_NAME_BASE = "";
 				INFOPLIST_FILE = Easing/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_DYLIB_INSTALL_NAME = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = mh_object;
